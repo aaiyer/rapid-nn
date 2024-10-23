@@ -1,0 +1,15 @@
+[package]
+name = "rapid-nn"
+version = "1.0.0"
+authors = ["Anand Aiyer <aaiyer@gmail.com>"]
+edition = "2021"
+description = "Rapid Neural Networks in Rust: A lightweight and fast neural network library that's easy to use."
+keywords = ["neural-networks", "machine-learning", "deep-learning"]
+license = "MIT"
+repository = "https://github.com/aaiyer/rapid-nn"
+readme = "README.md"
+categories = ["science"]
+
+[dependencies]
+rand = "0.8"
+serde = { version = "1", features = ["derive"] }
